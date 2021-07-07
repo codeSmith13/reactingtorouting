@@ -6,7 +6,7 @@ import Navbar from "./components/Navbar";
 import Films from "./components/Films";
 import Film from "./components/Film";
 import People from "./components/People";
-// import Home from "./components/Home";
+import Home from "./components/Home";
 // import Peoples from "./Peoples";
 
 function App() {
@@ -18,7 +18,7 @@ function App() {
         <Route path="/films/:id" component={Film} />
         <Route exact path="/people" component={People} />
         {/* <Route path="/people/:id" component={} /> */}
-        <Route path="home" component={"Home"} />
+        <Route path="/" component={Home} />
       </Switch>
     </Router>
   );

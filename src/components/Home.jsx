@@ -3,10 +3,13 @@ import React from "react";
 function Home() {
   return (
     <>
-      <div className=" ">
-        <div className="">
-          <img className="logo" src="https://tinyurl.com/4tuenb4" alt="logo" />
-
+      <div className="container ">
+        <div className="row d-flex justify-content-center mt-5">
+          <img
+            className="logo w-50 h-50  col-12 "
+            src="https://tinyurl.com/krhezajm"
+            alt="logo"
+          />
         </div>
       </div>
     </>
