@@ -1,0 +1,29 @@
+.logo{
+    height: 7em;
+    
+}
+
+
+
+.btn{
+    align-items: center;
+}
+
+.card-text{
+    color: white;
+}
+
+.card-title{
+    color: rgb(21, 79, 238);
+    font-family: Helvetica;
+    font-weight: bold;
+}
+.navBar{
+    border: solid white;
+    justify-content:center;
+    align-items: center;
+}
+
+.link {
+  color: #fffb2c!important;
+}
